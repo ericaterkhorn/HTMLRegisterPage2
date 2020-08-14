@@ -5,36 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css" />
-    <title>Register Page</title>
+    <title>Registration Page</title>
 </head>
 
 <body>
     <nav>
-        <div class="nav-button-wrapper">
-            <button class="button">About Us</button>
-            <button class="button">Register</button>
+        <div class="nav">
+            <button id="about" class="button_nav">Register</button>
+            <button id="register" class="button_nav">About Us</button>
         </div>
     </nav>
 
     <div class="form-wrapper">
         <h1 class="header">Sign Up</h1>
         <form class="form">
-            <input placeholder="Email" type="Email/">
-            <input placeholder="Username" type="Username">
-            <input placeholder="Password" type="Password/">
-            <input placeholder="Confirm Password" type="Confirm Password/">
+            <input id="email" placeholder="Email" type="Email" />
+            <br>
+            <br>
+            <input id="username" placeholder="Username" type="Username" />
+            <br>
+            <br>
+            <input id="password" placeholder="Password" type="Password" />
+            <br>
+            <br>
+            <input id="confirm" placeholder="Confirm Password" type="Confirm Password" />
+            <br>
+            <br>
             <button id="button" type="submit">Submit</button>
-
-            <div class="social">
-                <i id="amazon" href="http://amazon.com" class="fab fa-amazon"></i>
-                <i id="facebook" href="https://facebook.com" class="fab fa-facebook"></i>
-                <i id="github" href="https://github.com" class="fab fa-github.com"></i>
-            </div>
-
         </form>
-
+        <div class="social">
+            <a href="https://amazon.com"><img src="Assets/amazon2.jpg" width="30" height="30"></a>
+            <a href="https://facebook.com"><img src="Assets/facebook.jpg" width="30" height="30"></a>
+            <a href="https://github.com"><img src="Assets/github.png" width="30" height="30"></a>
+            <a href="https://slack.com"><img src="Assets/slack.png" width="30" height="30"></a>
+            <a href="https://instagram.com"><img src="Assets/instagram.jpg" width="30" height="30"></a>
+        </div>
     </div>
-    <br />
 
 </body>
 
