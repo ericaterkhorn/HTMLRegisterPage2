@@ -1,21 +1,66 @@
-.h1{
-    font-size: 20px;
+h1 {
+    font-size: 300px;
     font-size: medium;
+    font-family: Arial; 
 }
 
-body{
-    background-color: blue;
+body {
+    background-color: cornflowerblue;
 }
-nav{
+
+
+.nav {
     background-color: white;
-    height: 100px;
-    width: 40px;
-    align-content: right;
+    height: 50px;
+    width: auto;
+    padding-left: 1200px;
+    /* padding-right: 1200px; */
+    padding-top: 20px;
+    margin-top: 20px;
 }
 
-.form{
+.button_nav {
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 15px;
+}
+
+.form-wrapper {
+    background-color: white;
     padding-top: 5px;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 5px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: 550px;
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+}
+
+.form {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 150px;
+    padding-left: 100px;
+    margin-right: 500px;
+    margin-left: -190px;
+    margin-top: 15px;
     flex-direction: column;
+    z-index: 1;
+}
+
+#button {
+    background-color: dodgerblue;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 215px;
+    margin-bottom: 5px;
+    color: white;
+    width: 180px;
+}
+
+.submit {
+    height: 20px;
+    width: 50px;
 }
